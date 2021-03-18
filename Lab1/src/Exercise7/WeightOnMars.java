@@ -2,7 +2,7 @@ package Exercise7;
 import java.util.Scanner;
 
 public class WeightOnMars {
-	
+		// Variable init
 		static double weightIn;
 		static double marsWeight;
 		
@@ -12,6 +12,7 @@ public class WeightOnMars {
 	        calculateOut();
 	    }
 	    
+	    // Get weight on Earth
 	    public static void weightEarth() {
 	    
 	    	Scanner in = new Scanner(System.in);
@@ -20,6 +21,7 @@ public class WeightOnMars {
 	    	weightIn = in.nextDouble();	
 	    }
 	    
+	    // Calculate weight on Mars
 	    public static void calculateOut() {
 	    	
 	    	marsWeight = (weightIn/9.81) * 3.711;
