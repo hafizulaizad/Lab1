@@ -5,7 +5,7 @@ public class Location {
 	// Init private var 
 	private String state = "Kuching";
 	private String country = "Malaysia";
-	private String name = "Hafizul";
+	
 	
 	// Getter
 	public String getState() {
@@ -16,9 +16,7 @@ public class Location {
 		return country;
 	}
 
-	public String getName() {
-		return name;
-	}
+
 
 	// Setter
 	public void setState(String changeState) {
@@ -29,7 +27,5 @@ public class Location {
 	this.state = changeCountry;
 	}
 	
-	public void setName(String changeName) {
-		this.state = changeName;
-	}
+	
 }
