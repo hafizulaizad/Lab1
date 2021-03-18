@@ -1,3 +1,4 @@
+
 package Exercise8;
 import java.util.ArrayList;
 import java.util.List;
@@ -30,3 +31,4 @@ import Exercise7.WeightOnMars;
 	    Marslist.add(e7obj.getEarthWeight());
 		}
 }
+
