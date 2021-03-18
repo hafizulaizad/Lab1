@@ -8,8 +8,6 @@ import Exercise7.WeightOnMars;
 	//Variable declaration
 	public class WeightListing 
 		{
-		static String EarthObj;
-	   	static String MarsObj;
 	   	static List<Double> Marslist;
 	   	static List<Double> Earthlist;
 	   	static Scanner in = new Scanner(System.in);
