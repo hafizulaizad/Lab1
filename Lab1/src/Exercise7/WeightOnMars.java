@@ -2,7 +2,7 @@ package Exercise7;
 import java.util.Scanner;
 
 public class WeightOnMars {
-
+	
 		static double weightIn;
 		static double marsWeight;
 		
